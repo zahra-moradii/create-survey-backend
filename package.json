@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "vary": "^1.1.2"
+  }
+}

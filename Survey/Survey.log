@@ -1,0 +1,874 @@
+[1671210789452] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671210870996] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "GET",
+      "url": "/formReviews",
+      "path": "/formReviews",
+      "parameters": "/formReviews",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "5f7184f1-0ac3-4666-ad86-cf7ebcf571d0",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "258"
+      }
+    }
+[1671210871018] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 21.803599999984726
+{
+  statusCode: 500,
+  name: 'TypeError',
+  message: "Cannot read properties of undefined (reading 'find')",
+  debug: {
+    stack: [
+      'at UserController.find (F:\\IsDynamic\\Survey-Back\\dynamic-survay-backend\\Survey\\src\\utils\\Controller.ts:84:51)',
+      'at Object.<anonymous> (F:\\IsDynamic\\Survey-Back\\dynamic-survay-backend\\Survey\\src\\routes\\user\\index.ts:15:36)',
+      'at Object.<anonymous> (F:\\IsDynamic\\Survey-Back\\dynamic-survay-backend\\Survey\\src\\configs\\hooks.ts:51:7)'
+    ],
+    request: {
+      method: 'GET',
+      uri: '/users',
+      body: undefined,
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.29.2',
+        accept: '*/*',
+        'postman-token': '75985a58-d8f8-4e3f-8c90-bdc10199b45a',
+        host: 'localhost:9000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '258'
+      }
+    },
+    httpCode: 500
+  }
+}
+[1671210980765] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-2"
+    req: {
+      "method": "GET",
+      "url": "/users",
+      "path": "/users",
+      "parameters": "/users",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "75985a58-d8f8-4e3f-8c90-bdc10199b45a",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "258"
+      }
+    }
+[1671210980978] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-2"
+    res: {
+      "statusCode": 500
+    }
+    responseTime: 212.6056999999564
+[1671211004342] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-3"
+    req: {
+      "method": "GET",
+      "url": "/auth",
+      "path": "/auth",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "93660f25-92d3-41ab-9496-8b8eaa79c74b",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "258"
+      }
+    }
+[1671211004343] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mRoute GET:/auth not found[39m
+    reqId: "req-3"
+[1671211004344] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-3"
+    res: {
+      "statusCode": 404
+    }
+    responseTime: 1.2061000000685453
+{
+  statusCode: 500,
+  name: 'TypeError',
+  message: "Cannot read properties of undefined (reading 'find')",
+  debug: {
+    stack: [
+      'at UserController.find (F:\\IsDynamic\\Survey-Back\\dynamic-survay-backend\\Survey\\src\\utils\\Controller.ts:84:51)',
+      'at Object.<anonymous> (F:\\IsDynamic\\Survey-Back\\dynamic-survay-backend\\Survey\\src\\routes\\user\\index.ts:15:36)',
+      'at Object.<anonymous> (F:\\IsDynamic\\Survey-Back\\dynamic-survay-backend\\Survey\\src\\configs\\hooks.ts:51:7)'
+    ],
+    request: {
+      method: 'GET',
+      uri: '/users',
+      body: undefined,
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.29.2',
+        accept: '*/*',
+        'postman-token': '75eb7e55-4201-4ac5-b833-b66e0136e67b',
+        host: 'localhost:9000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '258'
+      }
+    },
+    httpCode: 500
+  }
+}
+[1671211013562] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-4"
+    req: {
+      "method": "GET",
+      "url": "/users",
+      "path": "/users",
+      "parameters": "/users",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "75eb7e55-4201-4ac5-b833-b66e0136e67b",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "258"
+      }
+    }
+[1671211013564] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-4"
+    res: {
+      "statusCode": 500
+    }
+    responseTime: 1.529700000071898
+[1671211564029] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-5"
+    req: {
+      "method": "POST",
+      "url": "/discount",
+      "path": "/discount",
+      "parameters": "/discount",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "612d2c61-db4b-4c99-98c9-dbebcf5802a7",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "282"
+      }
+    }
+[1671211564048] [32mINFO[39m (10736 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-5"
+    res: {
+      "statusCode": 201
+    }
+    responseTime: 19.468799999915063
+[1671211713472] [32mINFO[39m (3512 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671211724522] [32mINFO[39m (3512 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "POST",
+      "url": "/discount",
+      "path": "/discount",
+      "parameters": "/discount",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "c42d7877-44b1-4e1d-b407-b8a341cd4edc",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "282"
+      }
+    }
+[1671211724546] [32mINFO[39m (3512 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 201
+    }
+    responseTime: 23.877799999900162
+[1671211736859] [32mINFO[39m (3512 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-2"
+    req: {
+      "method": "POST",
+      "url": "/discount",
+      "path": "/discount",
+      "parameters": "/discount",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "d792106e-80b8-4645-b2f3-a02d76a9757f",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "282"
+      }
+    }
+[1671211736876] [32mINFO[39m (3512 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-2"
+    res: {
+      "statusCode": 201
+    }
+    responseTime: 16.86599999992177
+[1671211756039] [32mINFO[39m (11248 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671211916112] [32mINFO[39m (11248 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "POST",
+      "url": "/discount",
+      "path": "/discount",
+      "parameters": "/discount",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "a11cbbf7-9a54-41f5-9b03-c4d0bb3af486",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "282"
+      }
+    }
+[1671211916140] [32mINFO[39m (11248 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 201
+    }
+    responseTime: 27.07049999991432
+[1671211928207] [32mINFO[39m (8436 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671211954126] [32mINFO[39m (3620 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671211957838] [32mINFO[39m (3620 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "POST",
+      "url": "/discount",
+      "path": "/discount",
+      "parameters": "/discount",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "3f37c57f-8a83-4981-8d96-19cdcfcac3a8",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "282"
+      }
+    }
+[1671211957861] [32mINFO[39m (3620 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 201
+    }
+    responseTime: 21.767499999608845
+[1671211974133] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671211976029] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "POST",
+      "url": "/discount",
+      "path": "/discount",
+      "parameters": "/discount",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "0d2393ce-88c5-4408-89ee-54cacc71bc35",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "282"
+      }
+    }
+[1671211976051] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 201
+    }
+    responseTime: 21.755299999844283
+[1671212967321] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-2"
+    req: {
+      "method": "GET",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671212967326] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-3"
+    req: {
+      "method": "GET",
+      "url": "/packagePrices",
+      "path": "/packagePrices",
+      "parameters": "/packagePrices",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671212967332] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-3"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 5.1124999998137355
+[1671212967336] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-2"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 14.752199999988079
+[1671212974675] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-4"
+    req: {
+      "method": "GET",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671212974676] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-5"
+    req: {
+      "method": "GET",
+      "url": "/packagePrices",
+      "path": "/packagePrices",
+      "parameters": "/packagePrices",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671212974681] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-4"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 5.852100000251085
+[1671212974684] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-5"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 7.723699999973178
+[1671213014339] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-6"
+    req: {
+      "method": "GET",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671213014354] [32mINFO[39m (1876 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-6"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 14.000899999868125
+[1671213074460] [32mINFO[39m (9620 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671214754800] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671214761721] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "GET",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671214761746] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 24.335199999623
+[1671214790478] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-2"
+    req: {
+      "method": "GET",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671214790485] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-2"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 5.931499999947846
+[1671214820159] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-3"
+    req: {
+      "method": "OPTIONS",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "*",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "accept": "*/*",
+        "access-control-request-method": "POST",
+        "access-control-request-headers": "content-type",
+        "origin": "http://localhost:4200",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671214820161] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-3"
+    res: {
+      "statusCode": 204
+    }
+    responseTime: 2.404400000348687
+[1671214820167] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-4"
+    req: {
+      "method": "POST",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "content-length": "22",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua-platform": "\"Android\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671214820185] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-4"
+    res: {
+      "statusCode": 201
+    }
+    responseTime: 17.227099999785423
+[1671214866066] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-5"
+    req: {
+      "method": "GET",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua-platform": "\"Android\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671214866071] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-5"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 4.551300000399351
+[1671214893807] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-6"
+    req: {
+      "method": "GET",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua-platform": "\"Android\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671214893811] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-6"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 4.599500000476837
+[1671214973686] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-7"
+    req: {
+      "method": "GET",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua-platform": "\"Android\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671214973691] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-7"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 4.7212000004947186
+[1671215336149] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-8"
+    req: {
+      "method": "GET",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua-platform": "\"Android\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671215336152] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-8"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 3.3218000000342727
+[1671215402410] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-9"
+    req: {
+      "method": "GET",
+      "url": "/packages",
+      "path": "/packages",
+      "parameters": "/packages",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36",
+        "sec-ch-ua-platform": "\"Android\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671215402414] [32mINFO[39m (4036 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-9"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 3.895899999886751
+[1671215913431] [32mINFO[39m (13640 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671256311973] [32mINFO[39m (12072 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671256344474] [32mINFO[39m (14160 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671256388113] [32mINFO[39m (2420 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+[1671256400808] [32mINFO[39m (2420 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "GET",
+      "url": "/packages/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86",
+      "path": "/packages/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86",
+      "parameters": "/packages/:name",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.30.0",
+        "accept": "*/*",
+        "postman-token": "9bcbfebe-e6b9-464c-9043-4987f5766c8f",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "32"
+      }
+    }
+[1671256400823] [32mINFO[39m (2420 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 14.829000003635883
+[1671256429905] [32mINFO[39m (2420 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-2"
+    req: {
+      "method": "GET",
+      "url": "/packagePrices",
+      "path": "/packagePrices",
+      "parameters": "/packagePrices",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "origin": "http://localhost:4200",
+        "sec-fetch-site": "same-site",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://localhost:4200/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671256429912] [32mINFO[39m (2420 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-2"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 6.366899996995926
+[1671256437085] [32mINFO[39m (2420 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-3"
+    req: {
+      "method": "GET",
+      "url": "/favicon.ico",
+      "path": "/favicon.ico",
+      "headers": {
+        "host": "localhost:9000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "http://localhost:9000/formReviews",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      }
+    }
+[1671256437085] [32mINFO[39m (2420 on DESKTOP-CVIVMFO): [36mRoute GET:/favicon.ico not found[39m
+    reqId: "req-3"
+[1671256437086] [32mINFO[39m (2420 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-3"
+    res: {
+      "statusCode": 404
+    }
+    responseTime: 0.6761000007390976
+[1671256548445] [32mINFO[39m (10804 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:9000[39m
+Error: listen EADDRINUSE: address already in use 0.0.0.0:9000
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at doListen (node:net:1505:7)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 9000
+}
+[1671256557615] [32mINFO[39m (10804 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "GET",
+      "url": "/packages/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86",
+      "path": "/packages/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86",
+      "parameters": "/packages/:name",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.30.0",
+        "accept": "*/*",
+        "postman-token": "9ba2e9ea-dac9-42bc-99c8-f2df0dae18b9",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "32"
+      }
+    }
+[1671256557630] [32mINFO[39m (10804 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 14.753799997270107
+[1671256560488] [32mINFO[39m (10804 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-2"
+    req: {
+      "method": "GET",
+      "url": "/packages/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86",
+      "path": "/packages/%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86",
+      "parameters": "/packages/:name",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.30.0",
+        "accept": "*/*",
+        "postman-token": "afa33126-0713-4e27-b435-09da26e45411",
+        "host": "localhost:9000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "32"
+      }
+    }
+[1671256560492] [32mINFO[39m (10804 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-2"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 3.536100000143051

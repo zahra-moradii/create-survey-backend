@@ -1,0 +1,40 @@
+[1671210952598] [32mINFO[39m (5760 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:5000[39m
+[1671211032165] [32mINFO[39m (5760 on DESKTOP-CVIVMFO): [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "GET",
+      "url": "/users",
+      "path": "/users",
+      "parameters": "/users",
+      "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "postman-token": "64c15ce2-c6a5-4463-8d91-c715038dfd2c",
+        "host": "localhost:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "258"
+      }
+    }
+[1671211032207] [32mINFO[39m (5760 on DESKTOP-CVIVMFO): [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 41.47879999992438
+[1671211863155] [32mINFO[39m (11500 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:5000[39m
+[1671213074163] [32mINFO[39m (8388 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:5000[39m
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at doListen (node:net:1505:7)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 5000
+}
+[1671256285615] [32mINFO[39m (7464 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:5000[39m
+[1671256547962] [32mINFO[39m (13104 on DESKTOP-CVIVMFO): [36mServer listening at http://0.0.0.0:5000[39m
